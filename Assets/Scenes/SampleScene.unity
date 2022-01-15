@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 287d9164667a646d6b84cc9437059200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerInput: {fileID: 0}
 --- !u!114 &441430214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,8 +180,8 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: OasisControlScheme
-  m_DefaultActionMap: 720d143f-bd73-4feb-8de5-8761b392eb06
+  m_DefaultControlScheme: KeyboardMouse
+  m_DefaultActionMap: Game
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!4 &441430215
