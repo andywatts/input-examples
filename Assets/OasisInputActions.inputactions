@@ -1,0 +1,142 @@
+{
+    "name": "OasisInputActions",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "94a6eb15-39f6-49c8-b10f-5fcaaa337986",
+            "actions": [
+                {
+                    "name": "MenuExit",
+                    "type": "Button",
+                    "id": "ef9d14ab-7ec6-40b2-af84-4044205548e6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1719dffb-3664-40c6-9388-f98c2697bce8",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "OasisControlScheme",
+                    "action": "MenuExit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Dashboard",
+            "id": "d6a4430e-5649-4604-bef8-d575b4b71a9d",
+            "actions": [
+                {
+                    "name": "DashboardExit",
+                    "type": "Button",
+                    "id": "0a1cb619-2367-42e4-826d-113143dffb8e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c2bc0177-6cf1-43f3-a2a6-ff5d97b0667b",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "OasisControlScheme",
+                    "action": "DashboardExit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Game",
+            "id": "720d143f-bd73-4feb-8de5-8761b392eb06",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "f911f506-56b0-415e-9db7-6065bb84fc0e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "OpenDashboard",
+                    "type": "Button",
+                    "id": "f6fc963f-becb-4dc7-9cf5-5fe008c398e5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "OpenMenu",
+                    "type": "Button",
+                    "id": "5300b278-0104-4985-b24e-af5dcafe6b1d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "088cc009-393e-4078-aed0-1d93b2b3c410",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "OasisControlScheme",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b61b71fd-e2ff-406a-b382-8994960e7e87",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "OasisControlScheme",
+                    "action": "OpenDashboard",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "21de5a4d-12dc-46e6-a7e3-f8dc7ff48015",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "OasisControlScheme",
+                    "action": "OpenMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "OasisControlScheme",
+            "bindingGroup": "OasisControlScheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

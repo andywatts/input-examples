@@ -1,0 +1,32 @@
+Components
+    Simple
+        Keyboard.current.anyKey.wasPressedThisFrame
+    Input Actions Assets
+        Set of Control Schemes, Action Maps, Actions and Bindings.
+    Control Schemes
+        Device combinations.  keyboard, mouse, gamepad etc.
+    Action Maps
+        Group actions by Dashboard/Driving/Menu/Play
+    Actions
+        Single events that trigger functions
+    Bindings
+        Map control scheme buttons to actions
+    Player Input Component
+        All of the above for player object
+    UI Input Module
+    Behaviors
+        Use send message
+        
+    
+Steps
+    Create and open Input Actions Asset
+    Create Control Scheme
+    Create ActionMap
+    Create Action
+    Create PlayerInputComponent on GO and attach InputActions
+    Create Mono with OnMyAction methods, and attach to PlayerInputComponent
+    
+    
+
+Ref
+    https://gamedevbeginner.com/input-in-unity-made-easy-complete-guide-to-the-new-system/#input_system_explained
